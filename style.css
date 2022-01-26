@@ -38,6 +38,15 @@ body {
     justify-content: center;
     align-items: center;
 }
+.shadow {
+    min-width: 400px;
+    max-width: 400px;
+    height: 630px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--);
+}
 .card {
     min-width: 320px;
     max-width: 320px;
@@ -55,6 +64,18 @@ body {
     background-repeat: no-repeat;
     border-radius: 15px;
     margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#eye {
+    height: 40px;
+    width: 40px;
+    background-image: url(./images/icon-view.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    visibility: hidden;
 }
 .card h1 {
     font-size: var(--fontbodycopy);
@@ -138,4 +159,25 @@ body {
 .autor .accent {
     
     color: var(--white);
+}
+
+.card h1:hover {
+    color: var(--cyan);
+}
+
+.card h1:hover {
+    color: var(--cyan);
+}
+
+.accent:hover {
+    color: var(--cyan);
+}
+
+.card--pic:hover {
+    background-color: var(--cyan);
+    background-blend-mode: multiply;
+    opacity: 75%;
+}
+.card--pic:hover  #eye{  /*Aquí se debe de intercambiar el hover a otro más facil de darle click, sino hace un lío*/
+    visibility: visible;
 }
