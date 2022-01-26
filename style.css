@@ -48,16 +48,16 @@ body {
     background-color: var(--);
 }
 .card {
-    min-width: 320px;
-    max-width: 320px;
+    min-width: 340px;
+    max-width: 340px;
     height: 580px;
     background-color: var(--veryDarkBlueCBG);
-    border-radius: 30px;
+    border-radius: 20px;
     padding: 25px;
 }
 .card--pic {
     height: 270px;
-    width: 270px;
+    width: 290px;
     background-image: url(./images/image-equilibrium.jpg);
     background-position: center;
     background-size: cover;
